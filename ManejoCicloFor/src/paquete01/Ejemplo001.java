@@ -16,12 +16,14 @@ public class Ejemplo001 {
      */
     public static void main(String[] args) {
         String cadenaFinal = "";
-        for (int i = 1; i <= 10; i++) {
+        int valor = 0;
+        for (int i = 1; i <= 10; i++) { // i es variable INDEPENDIENTE
             
             cadenaFinal = String.format("%s%d", 
                     cadenaFinal,i);
         }
-        
+        // System.out.printf("%d", i);
+        // valor = 10;
         for (int i = 1; i < 11; i++) {
             cadenaFinal = String.format("%s%d", 
                     cadenaFinal,i);
